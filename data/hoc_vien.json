@@ -1,0 +1,47 @@
+[
+  {
+    "hoTen": "Lê Trần Bảo Lâm",
+    "email": "baolam.letran@gmail.com",
+    "ngaySinh": "15/08/2002",
+    "diaChi": "1 Võ Văn Ngân, Thủ Đức, TP.HCM",
+    "maSV": "HV2026901",
+    "soDT": "0938472615",
+    "expectedMessage": "Thêm mới thành công"
+  },
+  {
+    "hoTen": "Nguyễn Thị Mai Anh",
+    "email": "maianh.nguyen@gmail.com",
+    "ngaySinh": "22/10/2003",
+    "diaChi": "25 Lê Lợi, Quận 1, TP.HCM",
+    "maSV": "HV2026002",
+    "soDT": "0973829104",
+    "expectedMessage": "Thêm mới thành công"
+  },
+  {
+    "hoTen": "Trần Hoàng Bách",
+    "email": "hoangbach.tran@yahoo.com",
+    "ngaySinh": "05/04/2001",
+    "diaChi": "100 Nguyễn Văn Linh, Quận 7, TP.HCM",
+    "maSV": "HV2026003",
+    "soDT": "0914582739",
+    "expectedMessage": "Thêm mới thành công"
+  },
+  {
+    "hoTen": "Phạm Lê Quỳnh Như",
+    "email": "quynhnhu.pham@hotmail.com",
+    "ngaySinh": "30/12/2004",
+    "diaChi": "50 Pasteur, Quận 3, TP.HCM",
+    "maSV": "HV2026004",
+    "soDT": "0947283910",
+    "expectedMessage": "Thêm mới thành công"
+  },
+  {
+    "hoTen": "Vũ Đức Hải",
+    "email": "duchai.vu@gmail.com",
+    "ngaySinh": "12/07/2000",
+    "diaChi": "123 Điện Biên Phủ, Bình Thạnh, TP.HCM",
+    "maSV": "HV2026005",
+    "soDT": "0982736451",
+    "expectedMessage": "Thêm mới thành công"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "tenBaiTap": "Đề thi thử HSK 3 - Kỹ năng Tổng hợp",
+    "duongDanAnh": "tieng_trung_1.jpg",
+    "expectedMessage": "Thêm thành công",
+    "danhSachCauHoi": [
+      {
+        "loaiCauHoi": "MacDinh",
+        "noiDungCauHoi": "Câu 1 (Ngữ pháp - 语法): 经理，这份文件我已经___好了，您看一下。 ",
+        "danhSachDapAn": [
+          { "noiDung": "准备 (chuẩn bị)", "laDapAnDung": true },
+          { "noiDung": "明白 (hiểu rõ)", "laDapAnDung": false },
+          { "noiDung": "觉得 (cảm thấy)", "laDapAnDung": false },
+          { "noiDung": "发现 (phát hiện)", "laDapAnDung": false }
+        ]
+      },
+      {
+        "loaiCauHoi": "AmThanh",
+        "fileMedia": "hsk3_listening_q12.mp3",
+        "noiDungCauHoi": "Câu 2 (Nghe hiểu - 听力): 根据录音，明天天气怎么样？ )",
+        "danhSachDapAn": [
+          { "noiDung": "晴天 (Trời nắng)", "laDapAnDung": false },
+          { "noiDung": "下雨 (Có mưa)", "laDapAnDung": true },
+          { "noiDung": "刮风 (Có gió)", "laDapAnDung": false },
+          { "noiDung": "下雪 (Có tuyết)", "laDapAnDung": false }
+        ]
+      },
+      {
+        "loaiCauHoi": "HinhAnh",
+        "fileMedia": "hsk3_reading_ticket.png",
+        "noiDungCauHoi": "Câu 3 (Đọc hiểu - 阅读): 看图片，选出正确的词语。 ",
+        "danhSachDapAn": [
+          { "noiDung": "护照 (Hộ chiếu)", "laDapAnDung": false },
+          { "noiDung": "机票 (Vé máy bay)", "laDapAnDung": true },
+          { "noiDung": "菜单 (Thực đơn)", "laDapAnDung": false },
+          { "noiDung": "报纸 (Tờ báo)", "laDapAnDung": false }
+        ]
+      },
+      {
+        "loaiCauHoi": "Video",
+        "idVideo": "Z8Mqw0b9ADs",
+        "noiDungCauHoi": "Câu 4 (Văn hóa - 文化): MV trên là bài hát Sứ Thanh Hoa (青花瓷) rất nổi tiếng của ca sĩ Châu Kiệt Luân. Cụm từ '青花瓷' (qīnghuācí) có nghĩa là gì?",
+        "danhSachDapAn": [
+          { "noiDung": "Trà xanh (Lục trà)", "laDapAnDung": false },
+          { "noiDung": "Đồ gốm sứ hoa văn xanh", "laDapAnDung": true },
+          { "noiDung": "Hoa cúc xanh", "laDapAnDung": false },
+          { "noiDung": "Bức tranh thủy mặc", "laDapAnDung": false }
+        ]
+      },
+      {
+        "loaiCauHoi": "TuLuan",
+        "noiDungCauHoi": "Câu 5 (Viết - 书写): 请用中文写一篇短文（不少于100字），介绍你最喜欢的一本书。 (Hãy viết một đoạn văn tiếng Trung ít nhất 100 chữ, giới thiệu về cuốn sách mà bạn thích nhất.)",
+        "gioiHanKyTu": "500"
+      }
+    ]
+  }
+]

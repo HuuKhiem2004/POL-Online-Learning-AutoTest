@@ -1,0 +1,38 @@
+{
+    "emailHV1": "chuavodich025@gmail.com",
+    "emailHV2": "test.pltsolutions@gmail.com",
+    "anhBiaKhoaHoc": "hsk_cover.png",
+    "tenKhoaHoc": "Tiếng Trung Giao Tiếp Cơ Bản",
+    "moTaKhoaHoc": "Khóa học dành cho người mới bắt đầu, tập trung vào phát âm Pinyin, quy tắc viết chữ Hán và các chủ đề giao tiếp đời sống thường ngày.",
+    "dsTieuDeChuong": [
+      "Chương 1: Nhập môn Tiếng Trung", 
+      "Chương 2: Giao tiếp đời sống"
+    ],
+    "dsMoTaChuong": [
+      "Nắm vững hệ thống Pinyin và các nét chữ cơ bản", 
+      "Thực hành hội thoại chào hỏi, mua sắm và hỏi đường"
+    ],
+    "dsTieuDeBai": [
+      "Bài 1: Hệ thống Pinyin", 
+      "Bài 2: Quy tắc bút thuận", 
+      "Bài 3: Xin chào (你好)", 
+      "Bài 4: Mua sắm (买东西)"
+    ],
+    "dsMoTaBai": [
+      "Cách đọc thanh mẫu, vận mẫu và thanh điệu", 
+      "Quy tắc viết chữ Hán và các bộ thủ cơ bản", 
+      "Cách chào hỏi và giới thiệu bản thân bằng tiếng Trung", 
+      "Cách hỏi giá tiền, số đếm và mặc cả"
+    ],
+    "dsLinkVideo": [
+      "https://www.youtube.com/watch?v=1QG7Nn-qF7A",
+      "https://www.youtube.com/watch?v=Z8Mqw0b9ADs",
+      "https://www.youtube.com/watch?v=jKlGRw-8tbs",
+      "https://www.youtube.com/watch?v=3t4C9XgwMDc"
+    ],
+    "fPath": "tailieu_tiengtrung.docx",
+    "tenDienDan": "Diễn đàn Giao lưu Tiếng Trung",
+    "tenVideo" : "Lớp học trực tuyến: Chữa lỗi phát âm",
+    "moTaDienDan": "Nơi học viên thảo luận, chia sẻ tài liệu và đặt câu hỏi về ngữ pháp, từ vựng Tiếng Trung.",
+    "linkMeeting": "https://meet.google.com/tqx-hrvu-nwp"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-12T22:51:20 ICT" name="Default suite" finished-at="2026-04-12T22:55:26 ICT" duration-ms="246435">
+    <groups>
+    </groups>
+    <test started-at="2026-04-12T22:51:20 ICT" name="Default test" finished-at="2026-04-12T22:55:26 ICT" duration-ms="246435">
+      <class name="tests.QuanLyHocVienTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.QuanLyHocVienTest@2f54a33d]" started-at="2026-04-12T22:51:20 ICT" name="setup" finished-at="2026-04-12T22:51:26 ICT" duration-ms="5517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Them_Moi_Hoc_Vien()[pri:1, instance:tests.QuanLyHocVienTest@2f54a33d]" started-at="2026-04-12T22:51:26 ICT" name="Them_Moi_Hoc_Vien" finished-at="2026-04-12T22:52:03 ICT" duration-ms="37486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Them_Moi_Hoc_Vien -->
+        <test-method signature="Sua_Hang_Loat()[pri:2, instance:tests.QuanLyHocVienTest@2f54a33d]" started-at="2026-04-12T22:52:03 ICT" name="Sua_Hang_Loat" finished-at="2026-04-12T22:53:35 ICT" duration-ms="91690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sua_Hang_Loat -->
+        <test-method signature="Xoa_Hang_Loat()[pri:3, instance:tests.QuanLyHocVienTest@2f54a33d]" started-at="2026-04-12T22:53:35 ICT" name="Xoa_Hang_Loat" finished-at="2026-04-12T22:55:26 ICT" duration-ms="111471" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Có lỗi ở bước Xóa. Check file Word! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Có lỗi ở bước Xóa. Check file Word! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.QuanLyHocVienTest.Xoa_Hang_Loat(QuanLyHocVienTest.java:125)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Xoa_Hang_Loat -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.QuanLyHocVienTest@2f54a33d]" started-at="2026-04-12T22:55:26 ICT" name="afterTest" finished-at="2026-04-12T22:55:26 ICT" duration-ms="238" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
+System info: host: 'DAMNBOYVICTUS16', ip: '26.146.13.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=145.0.7632.160 (662e0d7961bd91ebe77fe6c52f369e45647af51c-refs/branch-heads/7632@{#3674}), userDataDir=C:\Users\VICTUS\AppData\Local\Temp\scoped_dir26660_1810013812}, timeouts={implicit=0, pageLoad=300000, script=30000}, goog:processID=24260, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:54290}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=146.0.7680.178, fedcm:accounts=true, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: eb46d3209f010ab494d53a94c6e732d5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:54:15.039Z'
+System info: host: 'DAMNBOYVICTUS16', ip: '26.146.13.55', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=145.0.7632.160 (662e0d7961bd91ebe77fe6c52f369e45647af51c-refs/branch-heads/7632@{#3674}), userDataDir=C:\Users\VICTUS\AppData\Local\Temp\scoped_dir26660_1810013812}, timeouts={implicit=0, pageLoad=300000, script=30000}, goog:processID=24260, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), webauthn:extension:minPinLength=true, goog:chromeOptions={debuggerAddress=localhost:54290}, webauthn:extension:credBlob=true, webauthn:extension:prf=true, acceptInsecureCerts=false, browserVersion=146.0.7680.178, fedcm:accounts=true, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: eb46d3209f010ab494d53a94c6e732d5
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:542)
+at tests.QuanLyHocVienTest.afterTest(QuanLyHocVienTest.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.afterRun(TestRunner.java:845)
+at org.testng.TestRunner.run(TestRunner.java:618)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pid
+at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
+at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:265)
+at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:219)
+at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:127)
+at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:220)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+... 25 more
+Caused by: java.lang.RuntimeException: Couldn't detect pid
+at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
+at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+... 33 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @32a1bec0
+at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:388)
+at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:364)
+at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:312)
+at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.QuanLyHocVienTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
