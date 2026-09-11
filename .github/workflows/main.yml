@@ -1,0 +1,24 @@
+name: POL Auto Test CI/CD
+
+# Báo cho GitHub biết: Cứ mỗi khi đại ca đẩy code (push) lên nhánh main là tự động chạy
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest # Mượn một con máy ảo hệ điều hành Ubuntu của GitHub
+
+    steps:
+    - name: 1. Kéo source code về máy ảo
+      uses: actions/checkout@v3
+
+    - name: 2. Cài đặt Java 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+
+    - name: 3. Khởi chạy Automation Test
+      # Lệnh này giả định đại ca đang dùng Maven. 
+      run: mvn clean test
